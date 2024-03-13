@@ -2,18 +2,9 @@
 <html>
    <head>
       <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
    </head>
-   <body>
-      <script>
-       window.onload = function() {
-         var downloadLink = document.createElement('a');
-         downloadLink.href = 'https://raw.githubusercontent.com/quinnathy/hcb-raas/main/hiiii.txt'; 
-         downloadLink.download = 'hiiii.txt'; 
-         document.body.appendChild(downloadLink);
-         downloadLink.click();
-         document.body.removeChild(downloadLink);
-      }
-      </script>
+   <body onload="downloadFile()">
       <div class="container">
          <div class="child">
             <p>gotcha!</p>
