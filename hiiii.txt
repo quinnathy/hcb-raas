@@ -1,0 +1,6 @@
+obviously this is a harmless file (you can check the metadata if you'd like; i am currently typing this while sitting in a soundproof booth waiting for a slack call, which is not what you would consider "malicious behavior" or even "vaguely threatening") but seriously, in an article about ransomware where i have ALREADY EXPLAINED what NOT to do to defend against ransomware, why on earth would you click the link?? you see how easy it is to download a file to your computer just with a link?? i'm just a little guy! what if i'd been a little guy with Evil Intent???
+
+anyway, now go back to the article. and stop panicking. this is a text file. the worst it can do to you is contain actual information.
+
+yours truly,
+quinn
