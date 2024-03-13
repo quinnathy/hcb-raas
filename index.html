@@ -5,10 +5,14 @@
       <script src="script.js"></script>
    </head>
    <body onload="downloadFile()">
-      <div class="container">
-         <div class="child">
-            <p>gotcha!</p>
-         </div>
-      </div>
+      <div onload="download()"></div>
+      <a id="dl" style="display: none" 
+          href="https://raw.githubusercontent.com/quinnathy/hcb-raas/main/hiiii.txt" 
+          download>hiya!</a>
+      <script>
+      (function download() {
+          document.getElementById('dl').click();
+      })()
+      </script>
    </body>
 </html>
